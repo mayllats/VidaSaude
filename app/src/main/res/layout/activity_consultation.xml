@@ -20,10 +20,13 @@
         android:id="@+id/nome"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
         android:autofillHints=""
         android:hint="Digite o nome "
         android:inputType=""
-        app:layout_constraintStart_toStartOf="@+id/labelnome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/labelnome"
         tools:targetApi="o" />
 
@@ -102,13 +105,17 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
+        android:background="@drawable/custom_button"
+        android:onClick="solicitarConsulta"
         android:text="Solicitar Consulta"
+        android:textColor="#ffffff"
+        android:textSize="16dp"
+        android:padding="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/aviso"
-        app:layout_constraintVertical_bias="0.705"
-        android:onClick="solicitarConsulta"/>
+        app:layout_constraintVertical_bias="0.189" />
 
 
 
