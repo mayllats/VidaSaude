@@ -12,20 +12,23 @@
         <activity
             android:name=".MainActivity"
             android:label="Especialidades">
+        </activity>
+        <activity
+            android:name=".DoctorsActivity"
+            android:label="Médicos" />
+        <activity
+            android:name=".ConsultationActivity"
+            android:label="Solicitar Consulta" />
+        <activity
+            android:name=".FinalActivity"
+            android:label="Solicitar Consulta" />
+        <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".DoctorsActivity"
-            android:label="Médicos"></activity>
-        <activity
-            android:name=".ConsultationActivity"
-            android:label="Solicitar Consulta"></activity>
-        <activity android:name=".FinalActivity"
-            android:label="Solicitar Consulta"></activity>
     </application>
 
 </manifest>
