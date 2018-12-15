@@ -14,7 +14,7 @@ public class DoctorsActivity extends AppCompatActivity implements AdapterView.On
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_doctors);
-
+        //callback
     }
 
     public void abrirListaMedicos(View view) {
