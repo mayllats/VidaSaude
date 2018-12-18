@@ -1,4 +1,4 @@
-package com.example.mayllasouza.vidasaude;
+package com.example.mayllasouza.vidasaude.domain;
 
 public class Consulta {
 

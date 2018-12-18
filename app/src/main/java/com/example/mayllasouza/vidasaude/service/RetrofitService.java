@@ -8,7 +8,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class RetrofitService {
 
-    private String baseUrl = "https://diogoolivins.000webhostapp.com/public_html/";
+    private String baseUrl = "https://diogoolivins.000webhostapp.com/";
     private InterfaceDeServicos api;
     private static RetrofitService instancia;
 

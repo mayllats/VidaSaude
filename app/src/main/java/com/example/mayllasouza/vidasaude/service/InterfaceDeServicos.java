@@ -1,7 +1,7 @@
 package com.example.mayllasouza.vidasaude.service;
 
-import com.example.mayllasouza.vidasaude.Medico;
-import com.example.mayllasouza.vidasaude.Especialidade;
+import com.example.mayllasouza.vidasaude.domain.Medico;
+import com.example.mayllasouza.vidasaude.domain.Especialidade;
 
 import java.util.List;
 
